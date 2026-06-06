@@ -10,8 +10,9 @@ const route=createBrowserRouter([
     path:"/",
     element:<App />
   }
-
-])
+], {
+  basename: "/amazonClone"
+})
 
 reactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
