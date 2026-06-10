@@ -11,7 +11,7 @@ const route=createBrowserRouter([
     element:<App />
   }
 ], {
-  basename: "/amazonClone"
+  basename:"/amazonClone"
 })
 
 reactDOM.createRoot(document.getElementById('root')).render(
